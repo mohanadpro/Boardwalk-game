@@ -5,8 +5,14 @@
     --primary-font:"Inter", sans-serif;
     --secondary-font:"Macondo",sans-serif;
     --primary-color:#416a82;
+    --secondary-color:#aa9518;
+    --highlight-color:#416a8c;
+    --ligh-highlight-color:#7a9fc2;
 }
 
+.sub-heading-color{
+    color: var(--highlight-color);
+}
 
 body{
     font-family: var(--primary-font);
@@ -21,6 +27,12 @@ h1,h2,h3{
     height: 70px;
 }
 
+
+footer{
+    border: 2px solid #3a3a3a;
+
+
+}
 
 @media screen and (min-width:992px) {
     #contact .btn{
