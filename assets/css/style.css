@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+:root{
+    --primary-font:"Inter", sans-serif;
+    --secondary-font:"Macondo",sans-serif;
+    --primary-color:#416a82;
+}
+
+
+body{
+    font-family: var(--primary-font);
+}
+
+h1,h2,h3{
+    font-family: var(--secondary-font);
+    color:var(--primary-color);
+}
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
+
+@media screen and (min-width:992px) {
+    #contact .btn{
+        margin-top: 24px;
+    }
+}
