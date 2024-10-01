@@ -4,9 +4,9 @@
 :root{
     --primary-font:"Inter", sans-serif;
     --secondary-font:"Macondo",sans-serif;
-    --primary-color:#416a82;
+    --primary-color:#4b1f12;
     --secondary-color:#aa9518;
-    --highlight-color:#416a8c;
+    --highlight-color:#6f98be;
     --ligh-highlight-color:#7a9fc2;
 }
 
@@ -14,17 +14,26 @@
     color: var(--highlight-color);
 }
 
+.general-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 body{
     font-family: var(--primary-font);
+}
+
+#navbar{
+    background-color: var(--primary-color);
+}
+
+#navbar img{
+    width: 40px;
 }
 
 h1,h2,h3{
     font-family: var(--secondary-font);
     color:var(--primary-color);
-}
-#logo{
-    width: 70px;
-    height: 70px;
 }
 
 
